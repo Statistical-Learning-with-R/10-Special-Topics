@@ -154,7 +154,7 @@ The model specification function for a very simple Neural Network is `mlp`, whic
 stands for "multilayer perceptron".  Unfortunately, due to the computational complexity,
 the `mlp` function only allows for one hidden layer.  (To fit a more complex network,
 we would need to get into some more complicated structures in tidymodels, so we'll
-stick with the simple one for now.)
+stick with the simple one for now.)  The engine is `nnet`.
 
 The parameters we will focus on are:
 
